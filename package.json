@@ -35,10 +35,13 @@
     "yup": "^0.27.0"
   },
   "devDependencies": {
+    "@commitlint/cli": "^8.2.0",
+    "@commitlint/config-conventional": "^8.2.0",
     "@types/react-helmet": "^5.0.14",
     "@typescript-eslint/eslint-plugin": "2.x",
     "@typescript-eslint/parser": "2.x",
     "babel-eslint": "10.x",
+    "cz-conventional-changelog": "^3.0.2",
     "eslint": "6.x",
     "eslint-config-prettier": "^6.7.0",
     "eslint-config-react-app": "^5.0.2",
@@ -49,6 +52,7 @@
     "eslint-plugin-react": "7.x",
     "eslint-plugin-react-hooks": "1.x",
     "gatsby-plugin-typescript": "^2.1.19",
+    "husky": "^3.1.0",
     "prettier": "^1.19.1",
     "typescript": "^3.7.2"
   },
